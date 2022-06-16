@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: rgb(219, 230, 163);
+}
+main {
+  width: 60%;
+  margin: auto;
+  height: auto;
+  padding-top: 10vh;
+  display: grid;
+  grid-template-areas: 
+  "e e b"
+  "tem tope tope"
+  "tem topp topp"
+  ;
+}
+main div {
+    margin: 5px;
+}
+.e {
+  background-color: rgb(255, 166, 0);
+  padding: 70px;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  grid-area: e;
+}
+
+.b {
+  background-color: rgb(0, 0, 0);
+  padding: 70px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  grid-area: b;
+}
+
+.tem {
+  background-color: rgb(26, 155, 0);
+  padding: 70px;
+  font-size: 25px;
+  color: black;
+  grid-area: tem;
+}
+
+.tope {
+  background-color: rgb(14, 3, 66);
+  padding: 70px;
+  font-size: 25px;
+  color: rgb(255, 253, 253);
+  grid-area: tope;
+}
+
+.topp {
+  background-color: rgb(0, 238, 247);
+  padding: 70px;
+  font-size: 25px;
+  color: black;
+  grid-area: topp;
+}
+
+
+
+
+
+
+
+
+
+/* top button style */
+header a {
+  background-color: hsl(0, 100%, 37%);
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  text-align: center;
+  padding: 20;
+}
+
+/* hover first button styles */
+header a:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
